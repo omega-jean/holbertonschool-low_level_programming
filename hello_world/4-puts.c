@@ -1,15 +1,15 @@
 /*
  * 4-puts.c
- * Auteur : omega-jean 
+ * author : omega-jean 
  */
 
 #include <stdio.h>
 
 /**
- * puts permet d'afficher la prase  "Programming is like building a multilingual
+ * puts Displays the sentence "Programming is like building a multilingual
  *                puzzle, followed by a new line.
  *
- * Retourne toujour 0
+ * Return : always 0
  */
 
 
