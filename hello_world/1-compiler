@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE source.c -o opt
+gcc -c $CFILE .c=.o
