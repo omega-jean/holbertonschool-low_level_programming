@@ -3,6 +3,8 @@
  * Auth: omega-jean 8897@holbertonstudents.com
  */
 
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
