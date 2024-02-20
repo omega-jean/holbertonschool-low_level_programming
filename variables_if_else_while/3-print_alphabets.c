@@ -17,19 +17,11 @@
 
 int main(void)
 {
-int n = 97;
-int m = 65;
-
-while (n <= 122)
-{
+char = n;
+for (n = '97'; c <= '122'; n++)
 putchar(n);
-n++;
-}
-while (m <= 90)
-{
+for (n = '65'; c <= '90'; n++)
 putchar(n);
-n++;
-}
 putchar('\n');
 
 return (0);
