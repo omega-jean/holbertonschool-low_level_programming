@@ -24,9 +24,9 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0);
-printf(n," is positive");
+printf(n, " is positive");
 else (n < 0);
-printf(n," is negative");
+printf(n, " is negative");
 else (n = 0);
 printf(n, " is zero");
 return (0);
