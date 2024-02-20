@@ -18,9 +18,9 @@
 int main(void)
 {
 char = n;
-for (n = '97'; c <= '122'; n++)
+for (n = '97'; n <= '122'; n++)
 putchar(n);
-for (n = '65'; c <= '90'; n++)
+for (n = '65'; n <= '90'; n++)
 putchar(n);
 putchar('\n');
 
