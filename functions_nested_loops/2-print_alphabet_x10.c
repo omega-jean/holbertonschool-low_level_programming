@@ -6,23 +6,18 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - "prints the alphabet x10
- */
+  * _islower - Checks for lowercase character
+  * @c: The character to be checked
+  *
+  * Return: 1 for lowercase character or 0 for anything else
+  */
 
-void print_alphabet_x10(void)
+int _islower(int c)
 {
-
-char n;
-int c = 0;
-while (c <= 9)
-
+if (c >= 97 && c <= 122)
 {
-for (n = 97; n <= 122; n++)
-{
-_putchar(n);
+return (1);
 }
 
-_putchar('\n');
-c++;
-}
+return (0);
 }
