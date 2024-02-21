@@ -8,9 +8,9 @@
 
 void print_alphabet(void);
 {
-int n = 97;
+int n;
 
-while (n <= 122)
+for (n = 97; c <= 122; n++)
 {
 _putchar(n);
 n++;
