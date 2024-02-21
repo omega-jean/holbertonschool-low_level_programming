@@ -1,19 +1,20 @@
 /*
  * File: 1-alphabet.c
- * Auth: omega-jean 8897@holbertonstudents.com
+ * Auth: omega-jean
  */
 
-#include <unistd.h>
 #include "main.h"
+
+/**
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ */
 
 void print_alphabet(void)
 {
-int n;
+char letter;
 
-for (n = 97; n <= 122; n++)
-{
-_putchar(n);
-}
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
 
 _putchar('\n');
 }
