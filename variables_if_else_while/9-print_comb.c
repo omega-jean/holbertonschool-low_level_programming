@@ -21,11 +21,14 @@ int n = 48;
 
 while (n <= 57)
 {
-if (n == 57)
+puthar(n);
+if (n < 57)
+{
 putchar(44);
 putchar(32);
 }
 n++;
+}
 putchar('\n');
 
 return (0);
