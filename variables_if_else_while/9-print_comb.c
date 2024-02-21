@@ -23,7 +23,7 @@ while (n <= 57)
 {
 putchar(n);
 putchar(44);
-putchar('\n');
+putchar(32);
 n++;
 }
 putchar(36);
