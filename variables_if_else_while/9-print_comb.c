@@ -26,6 +26,7 @@ putchar(44);
 putchar('\n');
 n++;
 }
+putchar(36);
 
 return (0);
 }
