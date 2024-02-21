@@ -3,4 +3,4 @@
  * Auth: omega-jean 8897@holbertonstudents.com
  */
 
-printf(_putchar)
+printf (_putchar)
