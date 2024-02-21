@@ -3,7 +3,7 @@
  * Auth: omega-jean 8897@holbertonstudents.com
  */
 
-#include <unistd>
+#include <unistd.h>
 #include "main.h"
 
 void print_alphabet(void)
