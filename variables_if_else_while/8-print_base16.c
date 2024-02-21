@@ -23,7 +23,7 @@ int m = 97;
 while (n <= 57)
 {
 putchar(n);
-while (m < 10)
+while (m < 102)
 {
 putchar(m);
 n++;
