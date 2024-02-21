@@ -23,12 +23,12 @@ int m = 97;
 while (n <= 57)
 {
 putchar(n);
-while (m < 102)
+n++;
+}
+while (m <= 102)
 {
 putchar(m);
-n++;
 m++;
-}
 }
 putchar('\n');
 
