@@ -3,7 +3,8 @@
  * Auth: omega-jean 8897@holbertonstudents.com
  */
 
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
  * main - Print _putchar
