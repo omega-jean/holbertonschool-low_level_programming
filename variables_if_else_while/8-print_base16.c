@@ -8,8 +8,8 @@
 #include <stdio.h>
 
 /**
- * main - "This program prints all base 16 numbers in lowercase, 
- * 		followed by a new line.
+ * main - "This program prints all base 16 numbers in lowercase,
+ * followed by a new line.
  *
  * Return: Always 0.
  */
