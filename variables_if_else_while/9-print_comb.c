@@ -21,7 +21,7 @@ int n = 48;
 
 while (n <= 57)
 {
-puthar(n);
+putchar(n);
 if (n < 57)
 {
 putchar(44);
