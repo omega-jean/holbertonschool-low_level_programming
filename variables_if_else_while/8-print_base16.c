@@ -18,15 +18,16 @@
 int main(void)
 {
 int n = 48;
-int n = 97;
+int m = 97;
 
 while (n <= 57)
 {
 putchar(n);
-while (n < 10)
+while (m < 10)
 {
-putchar(n);
+putchar(m);
 n++;
+m++;
 }
 }
 putchar('\n');
