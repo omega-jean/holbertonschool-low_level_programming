@@ -6,12 +6,11 @@
 #include "main.h"
 
 /**
-  * print_sign - function that computes the absolute value of an integer.
-  * @n : The number of which the sign will be printed.
-  *
-  * Return: return n if n is >= 0
-  *         return -n if n is < 0
-  */
+ * _abs - Computes the absolute value of an integer.
+ * @n: The integer to be computed.
+ *
+ * Return: The absolute value of the integer.
+ */
 
 int _abs(int n)
 {
