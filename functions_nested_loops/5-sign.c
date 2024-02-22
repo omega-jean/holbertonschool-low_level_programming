@@ -7,7 +7,7 @@
 
 /**
   * print_sign - Prints the sign of a number.
-  * @c: The character to be checked
+  * @n : The number of which the sign will be printed.
   *
   * Return: 1 and prints + if n is greater than zero
   *         0 and prints 0 if n is zero
