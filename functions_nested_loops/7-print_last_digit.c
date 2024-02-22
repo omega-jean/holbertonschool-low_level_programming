@@ -6,11 +6,10 @@
 #include "main.h"
 
 /**
- * print_last_digit - function to return the last digit
+ *print_last_digit - function to return the last digit
+ *@n: The integer to be computed.
  *
- * @n: The integer to be computed.
- *
- * Returns: the value of the last digit
+ *Returns: the value of the last digit
  */
 
 int print_last_digit(int n)
