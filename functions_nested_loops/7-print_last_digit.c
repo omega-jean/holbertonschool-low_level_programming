@@ -7,6 +7,7 @@
 
 /**
  * print_last_digit - function to return the last digit
+ *
  * @n: The integer to be computed.
  *
  * Returns: the value of the last digit
