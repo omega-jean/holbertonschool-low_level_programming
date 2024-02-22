@@ -20,6 +20,6 @@ return 10 - (n % 10);
 }
 else
 {
-return n % 10
+return n % 10;
 }
 }
