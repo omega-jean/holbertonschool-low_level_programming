@@ -11,8 +11,10 @@
 * @num1 : number 1
 * @num2 : number 2
 *
-* Return: returns num1 + num2
+* Return: return result
 */
 
 int add(int num1, int num2)
+{
 return (num1 + num2);
+}
