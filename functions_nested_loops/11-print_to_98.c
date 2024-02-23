@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+#include <stdio.h>
 
 /**
 * print_to_98 - Counts up to 98
