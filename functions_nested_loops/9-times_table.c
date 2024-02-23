@@ -16,11 +16,11 @@ void times_table(void)
 int mult;
 int num;
 int result;
-for (num = 0; <= 9; num++)
+for (num = 0; num <= 9; num++)
 {
 _putchar('0');
 {
-for (mult = 0; <= 9; mult++)
+for (mult = 0; mult <= 9; mult++)
 _putchar(',');
 _putchar(' ');
 result = num * mult;
