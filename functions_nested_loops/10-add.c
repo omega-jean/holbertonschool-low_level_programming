@@ -6,7 +6,10 @@
 #include "main.h"
 
 /**
-* add - add
+* add - add the numbers
+*
+* @num1 : number 1
+* @num2 : number 2
 *
 * Return: returns num1 + num2
 */
