@@ -8,7 +8,7 @@
 /**
   * print_square - function that prints a square, followed by a new line.
   *
-  * size: That's the size of the square
+  * @size: That's the size of the square
   *
   * return: The absolute value of the integer
   */
