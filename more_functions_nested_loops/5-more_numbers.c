@@ -8,7 +8,6 @@
 /**
   * more_numbers - Print all numbers from 0 to 14, 10 faith
   *
-  * @n: its a number
   *
   * return: The absolute value of the integer
   */
