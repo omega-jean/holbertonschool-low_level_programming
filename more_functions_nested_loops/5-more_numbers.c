@@ -5,6 +5,13 @@
 
 #include "main.h"
 
+/**
+  * more_numbers - Print all numbers from 0 to 14, 10 faith
+  *
+  *
+  *  return: The absolute value of the integer
+  */
+
 void more_numbers(void)
 {
 int n;
