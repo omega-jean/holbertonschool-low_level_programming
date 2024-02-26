@@ -5,6 +5,7 @@
 
 #include "main.h"
 
+void print_most_numbers(void)
 {
 int n = 48;
 while (n <= 57)
