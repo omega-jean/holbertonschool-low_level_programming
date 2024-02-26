@@ -20,7 +20,7 @@ for (a = 0; a < num1; a++)
 {
 for (b = 0; b < size; b++)
 {
-_putchar("35");
+_putchar(35);
 }
 _putchar("\n");
 }
