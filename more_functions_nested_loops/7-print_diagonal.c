@@ -5,6 +5,14 @@
 
 #include "main.h"
 
+/**
+  * print_diagonal - function that draws a diagonal line on the terminal.
+  *
+  * @n: This is the parameter
+  *
+  * return: The absolute value of the integer
+  */
+
 void print_diagonal(int n)
 {
 while (n-- > 0)
