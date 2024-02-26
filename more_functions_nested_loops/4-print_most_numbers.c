@@ -10,7 +10,7 @@ void print_most_numbers(void)
 int n = 48;
 while (n <= 57)
 {
-if (n = 52)
+if (n == 52)
 {
 _putchar(n+1);
 n++;
