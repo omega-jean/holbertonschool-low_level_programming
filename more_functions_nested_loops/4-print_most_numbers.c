@@ -12,9 +12,9 @@ while (n <= 57)
 {
 if (n != 50 && n != 52)
 {
-_putchar(n+1);
+_putchar(n);
+}
 n++;
 }
 _putchar('\n');
-}
 }
