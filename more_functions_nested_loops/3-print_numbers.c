@@ -6,11 +6,11 @@
 #include "main.h"
 
 /**
-  * print_numbers - Print numbers from 0 to 9 followed by a line
+  * print_numbers - Print numbers from zero to nine followed by a line
   *
-  * @n : The integer to be computed.
+  * @n: The integer to be computed.
   *
-  *  return : The absolute value of the integer
+  *  return: The absolute value of the integer
   */
 
 void print_numbers(void)
