@@ -10,8 +10,10 @@ int n = 48;
 while (n <= 57)
 {
 if (n = 52)
+{
 _putchar(n+1);
 n++;
 }
 _putchar('\n');
+}
 }
