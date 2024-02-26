@@ -10,7 +10,9 @@ void print_line(int n)
 if (n == 0)
 {
 else
+{
 _putchar('_');
 }
 _putchar('\n');
+}
 }
