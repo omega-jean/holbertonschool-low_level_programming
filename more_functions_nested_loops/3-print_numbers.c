@@ -8,7 +8,6 @@
 /**
   * print_numbers - Print numbers from zero to nine followed by a line
   *
-  * @n: The integer to be computed.
   *
   *  return: The absolute value of the integer
   */
