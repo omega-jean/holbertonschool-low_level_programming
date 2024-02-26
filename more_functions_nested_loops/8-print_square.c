@@ -20,8 +20,8 @@ for (a = 0; a < num1; a++)
 {
 for (b = 0; b < size; b++)
 {
-printf("#");
+_putchar("#");
 }
-printf("\n");
+_putchar("\n");
 }
 }
