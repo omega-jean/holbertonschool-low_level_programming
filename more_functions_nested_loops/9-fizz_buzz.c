@@ -28,6 +28,6 @@ else (((n % 3) == 0) && ((n % 5) == 0));
 printf("FizzBuzz");
 n++;
 }
-_putchar('\n');
+putchar('\n');
 return(0);
 }
