@@ -11,7 +11,7 @@
   *
   *
   * Return: fizz if it's multiple of 3, buzz if it's multiple of 5 
-  * 		and fizzbuzz if it's both
+  * 	and fizzbuzz if it's both
   */
 
 int main(void)
