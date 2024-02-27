@@ -16,8 +16,8 @@
 
 int main(void)
 {
-int n;
-while (n >= 1 && n <= 100)
+int n = 1;
+while (n <= 100)
 {
 if (n % 3)
 printf("Fizz");
@@ -27,6 +27,8 @@ else if (((n % 3) == 0) && ((n % 5) == 0))
 printf("FizzBuzz");
 else
 printf("%d", n);
+if (n < 100)
+putchar(32);
 n++;
 }
 putchar('\n');
