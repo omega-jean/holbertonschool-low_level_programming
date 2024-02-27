@@ -15,14 +15,14 @@
 
 void print_triangle(int size)
 {
-int a = 0;
-int b = 0;
 if (size <= 0)
 _putchar('\n');
 else
 {
+int a = 0;
 while (a < size)
 {
+int b = 0;
 while (b < size)
 {
 if (b < (size - (a + 1)))
