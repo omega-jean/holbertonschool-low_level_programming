@@ -10,8 +10,7 @@
   * main - program that prints the numbers from 1 to 100
   *
   *
-  * Return: fizz if it's multiple of 3, buzz if it's multiple of 5 
-  * and fizzbuzz if it's both
+  * Return: fizz if it's multiple of 3, buzz if it's multiple of 5 and fizzbuzz if it's both
   */
 
 int main(void)
