@@ -24,7 +24,7 @@ if (n % 3)
 printf("Fizz");
 else if (n % 5);
 printf("Buzz");
-else (n % 3; n % 5);
+else ((n % 3) = 0 && (n % 5) = 0);
 printf("FizzBuzz");
 }
 n++;
