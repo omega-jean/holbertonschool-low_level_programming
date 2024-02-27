@@ -7,7 +7,7 @@
 
 /**
   * main - program that prints the numbers from 1 to 100
-  * @*n: pointer n is the value of the number
+  * @n: pointer n is the value of the number
   *
   * Return: always 0
   */
