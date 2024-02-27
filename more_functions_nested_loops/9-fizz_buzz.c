@@ -21,13 +21,13 @@ while (n >= 1 && n <= 100)
 _putchar(n);
 {
 if (n % 3)
-printf('Fizz');
+printf("Fizz");
 else if (n % 5);
-printf('Buzz');
+printf("Buzz");
 else (n % 3; n % 5);
-printf('FizzBuzz');
+printf("FizzBuzz");
 }
 n++;
 _putchar('\n');
-return(0)
+return(0);
 }
