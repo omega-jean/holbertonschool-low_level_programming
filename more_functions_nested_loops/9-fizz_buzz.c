@@ -21,19 +21,19 @@ _putchar(n);
 {
 if (n % 3)
 {
-_putchar("Fizz");
+_putchar('Fizz');
 }
 else if
 {
 for (n % 5)
 {
-_putchar("Buzz");
+_putchar('Buzz');
 }
 else
 {
 for (n % 3 && n % 5)
 {
-_putchar("FizzBuzz")
+_putchar('FizzBuzz')
 }
 }
 }
