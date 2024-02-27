@@ -23,7 +23,7 @@ else if
 {
 for (a = 0; a < size; a++)
 {
-for (b = 0; b < (size - (b +1); b++);
+for (b = 0; b < (size - (b +1)); b++);
 _putchar(32);
 else
 _putchar(35);
