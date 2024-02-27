@@ -18,7 +18,6 @@ int main(void)
 {
 int n;
 while (n >= 1 && n <= 100)
-_putchar(n);
 {
 if (n % 3)
 printf("Fizz");
@@ -26,6 +25,8 @@ else if (n % 5)
 printf("Buzz");
 else (((n % 3) == 0) && ((n % 5) == 0));
 printf("FizzBuzz");
+else
+printf("%d", i);
 n++;
 }
 putchar('\n');
