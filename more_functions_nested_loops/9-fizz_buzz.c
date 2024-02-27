@@ -25,15 +25,15 @@ _putchar('Fizz');
 }
 else if
 {
-for (n % 5)
+for (n % 5);
 {
 _putchar('Buzz');
 }
 else
 {
-for (n % 3 && n % 5)
+for (n % 3 && n % 5);
 {
-_putchar('FizzBuzz')
+_putchar('FizzBuzz');
 }
 }
 }
