@@ -21,16 +21,18 @@ if (size <= 0)
 _putchar('\n');
 else if
 {
-while (a < size; a++)
+while (a < size)
 {
-while (b < size; b++)
+while (b < size)
 {
-if (b < (size - (a + 1)); a++)
+if (b < (size - (a + 1)))
 _putchar(32);
 else
 _putchar(35);
+a++;
 }
 _putchar('\n');
+b++;
 }
 }
 }
