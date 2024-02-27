@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+#include <stdio..h>
 
 /**
   * main - program that prints the numbers from 1 to 100
@@ -20,24 +21,13 @@ while (n >= 1 && n <= 100)
 _putchar(n);
 {
 if (n % 3)
-{
-_putchar(Fizz);
+printf('Fizz');
+else if (n % 5);
+printf('Buzz');
+else (n % 3; n % 5);
+printf('FizzBuzz');
 }
-else if
-{
-for (n % 5);
-{
-_putchar(Buzz);
-}
-else
-{
-for (n % 3; n % 5);
-{
-_putchar(FizzBuzz);
-}
-}
-}
-}
-_putchar('\n');
 n++;
+_putchar('\n');
+return(0)
 }
