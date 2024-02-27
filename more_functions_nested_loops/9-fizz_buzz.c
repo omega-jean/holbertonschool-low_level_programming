@@ -26,7 +26,7 @@ printf("Buzz");
 else (((n % 3) == 0) && ((n % 5) == 0));
 printf("FizzBuzz");
 else
-printf("%d", i);
+printf("%d", n);
 n++;
 }
 putchar('\n');
