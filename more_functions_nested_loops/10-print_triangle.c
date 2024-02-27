@@ -19,7 +19,7 @@ int a = 0;
 int b = 0;
 if (size <= 0)
 _putchar('\n');
-else if
+else
 {
 while (a < size)
 {
@@ -29,10 +29,10 @@ if (b < (size - (a + 1)))
 _putchar(32);
 else
 _putchar(35);
-a++;
+b++;
 }
 _putchar('\n');
-b++;
+a++;
 }
 }
 }
