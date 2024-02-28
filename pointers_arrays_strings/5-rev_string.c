@@ -15,7 +15,7 @@ int b = 0;
 char l;
 while (s[len])
 len++;
-for (a = len - 1; a >= len / 2; len--)
+for (a = len - 1; a >= len / 2; a--)
 {
 l = s[a];
 s[a] = s[b];
