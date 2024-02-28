@@ -2,12 +2,15 @@
 
 void print_rev(char *s)
 {
-int i;
-i = rev(s) - 1;
-while (i >= 0)
+int len;
+while (*s)
+*len++;
 {
-write (1, (s+i), 1);
-i--;
+int i;
+for (i = len-1; i >= 0; i++)
+{
+_putchar(s[i]);
 }
-return (s);
+}
+_putchar('\n');
 }
