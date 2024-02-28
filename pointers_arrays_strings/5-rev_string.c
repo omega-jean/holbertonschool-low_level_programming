@@ -16,8 +16,8 @@ while (s[a])
 a++;
 for (b = a - 1; b >= a / 2; a--)
 {
-l = s[a];
-s[a] = s[b];
-s[b] = l;
+l = s[b];
+s[b] = s[a];
+s[a] = l;
 }
 }
