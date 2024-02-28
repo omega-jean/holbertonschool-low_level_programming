@@ -1,16 +1,23 @@
 #include "main.h"
 
+/**
+  * rev_string - function that reverses a string.
+  * @s: string
+  *
+  * Return: the size of the string
+  */
+
 void rev_string(char *s)
 {
-char str[100], rev[100];
-int a = strlen(str);;
-int b = 0;
-int c = 0;
-rev[a] = '\0';
-for (b = a -1; b >= 0; b--)
+int len = 0;
+int i = 0;
+char l;
+while (s[len])
+len++;
+for (i = len - 1; i >= len / 2; i--)
 {
-rev[c++] = str[b];
+l = s[i];
+s[i] = s[j];
+s[j] = l;
 }
-rev[b] = '\0';
-return (0);
 }
