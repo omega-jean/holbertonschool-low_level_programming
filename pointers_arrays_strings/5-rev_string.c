@@ -20,6 +20,6 @@ for (a = len - 1; a >= len / 2; len--)
 l = s[a];
 s[a] = s[b];
 s[b] = l;
-b++
+b++;
 }
 }
