@@ -14,8 +14,8 @@ int i = 0;
 int e = 0;
 int p = 0;
 for (i = n - 1; i >= n / 2; i++)
-p = n[i];
-n[i] = n[e];
-n[e] = p;
+p = a[i];
+a[i] = a[e];
+a[e] = p;
 e++;
 }
