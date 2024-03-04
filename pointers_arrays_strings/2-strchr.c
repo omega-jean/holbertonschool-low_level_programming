@@ -10,5 +10,9 @@
 
 char *_strchr(char *s, char c)
 {
+int i;
+for (i = 0; s != '\n', i++)
+if (s == 
 
+return ('\0')
 }
