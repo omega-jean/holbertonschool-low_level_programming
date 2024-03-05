@@ -18,7 +18,7 @@ for (i = 0; accept[i]; i++)
 {
 if (accept[i] == *s)
 {
-b++;
+bytes++;
 }
 else if ((accept[i + 1]) == '\0')
 return (bytes);
