@@ -5,7 +5,7 @@
   * print_chessboard - function that prints the chessboard.
   * @a: allows you to check
   *
-  * Return: 
+  * Return: a chessboard
   */
 
 void print_chessboard(char (*a)[8])
