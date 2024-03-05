@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-  * _strpbrk - function locates the first occurrence in the string s of 
+  * _strpbrk - function locates the first occurrence in the string s of
   * any of the bytes in the string accept
   * @s: string
   * @accept: accept
   *
-  * Return: a pointer to the byte in s that matches one of the bytes 
+  * Return: a pointer to the byte in s that matches one of the bytes
   * in accept, or NULL if no such byte is found
   */
 
