@@ -22,5 +22,5 @@ return (s);
 }
 s++;
 }
-return ('\0')i;
+return ('\0');
 }
