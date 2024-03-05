@@ -10,7 +10,7 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-unsigned int b = 0;
+unsigned int b;
 int i;
 while (*s)
 {
@@ -21,9 +21,9 @@ if (accept[i] == *s)
 b++;
 }
 else if ((accept[i + 1]) == '\0')
-return (b);
+return (b = 0);
 }
 s++;
 }
-return (b);
+return (b = 0);
 }
