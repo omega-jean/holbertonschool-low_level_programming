@@ -11,20 +11,13 @@
 
 int _pow_recursion(int x, int y)
 {
-int result = 1;
-int i;
 if (y < 0)
+{
 return (-1);
-else if (y > 0)
-{
-for (i = 0; i < y; ++i)
-{
-result *= x;
 }
-else if
-for (i = 0; i > y; --i)
+if (y == 0)
 {
-result /= x;
+return (1)
 }
-}
+return (x * _pow_recursion(x, y - 1));
 }
