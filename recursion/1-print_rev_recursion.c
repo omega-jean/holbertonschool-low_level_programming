@@ -2,9 +2,8 @@
 
 /**
 * _print_rev_recursion -  function that prints a string in reverse.
-* @s:character to be printed
-
-* Return:returns void
+*@s:character to be printed
+*Return:returns void
 */
 
 void _print_rev_recursion(char *s)
