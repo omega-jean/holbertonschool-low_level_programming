@@ -15,9 +15,16 @@ int result = 1;
 int i;
 if (y < 0)
 return (-1);
-else
+else if (y > 0)
+{
 for (i = 0; i < y; ++i)
 {
-result * = x;
+result *= x;
+}
+else
+for (i = 0; i > y; --i)
+{
+resultat /= x;
+}
 }
 }
