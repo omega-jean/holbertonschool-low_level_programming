@@ -1,25 +1,28 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - function that returns the natural square root of a number.
+ * _sqrt_recursion - main funct
  *
- * @n: number
+ * @n: int n
  *
- * Return: If n does not have a natural square root, the function should return -1
+ * Return: int
  */
 
-int is_prime_number(int n)
+
+int _sqrt_recursion(int n)
 {
-return (check_prime(n, 1));
+return (_sqrt_recursion(n, 1));
 }
 
+
 /**
-  * _str - Check if number is prime
-  * @n: the number to be checked
-  * @i: the iteration times
-  *
-  * Return: 1 for prime or 0 composite
-  */
+ * _sqrt - _sqrt_recursion
+ *
+ * @n: integer paramtr
+ * @i: integer parameter
+ *
+ * Return: sqrt
+ */
 
 int _str(int n, int i)
 {
