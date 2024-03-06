@@ -14,7 +14,7 @@ return (check_prime(n, 1));
 }
 
 /**
-  * check_prime - Check if number is prime
+  * str - Check if number is prime
   * @n: the number to be checked
   * @i: the iteration times
   *
@@ -29,5 +29,5 @@ if (n % i == 0 && i > 1)
 return (0);
 if ((n / i) < i)
 return (1);
-return (check_prime(n, i + 1));
+return (str(n, i + 1));
 }
