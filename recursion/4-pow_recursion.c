@@ -21,10 +21,10 @@ for (i = 0; i < y; ++i)
 {
 result *= x;
 }
-else
+else if
 for (i = 0; i > y; --i)
 {
-resultat /= x;
+result /= x;
 }
 }
 }
