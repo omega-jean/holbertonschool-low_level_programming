@@ -1,26 +1,6 @@
 #include "main.h"
 
 /**
- * operation - make the operation to find the root.
- *
- * @n: number
- * @root: root of n
- *
- * Return: If n does not have a natural square root,
- * the function should return -1
- */
-
-int operation(int n, int root)
-{
-if (root * root == 0)
-return (root);
-else if (root * root < n)
-return (operation(n, root + 1));
-else
-return (-1);
-}
-
-/**
  * _sqrt_recursion - function that returns the natural
  * square root of a number.
  *
@@ -36,4 +16,24 @@ if (n < 0)
 return (-1);
 else
 return (operation(n, 1));
+}
+
+/**
+ * operation - make the operation to find the root.
+ *
+ * @n: number
+ * @root: root of n
+ *
+ * Return: If n does not have a natural square root,
+ * the function should return -1
+ */
+
+int operation(int n, int root)
+{
+if (root * root == n)
+return (root);
+else if (root * root < n)
+return (operation(n, root + 1));
+else
+return (-1);
 }
