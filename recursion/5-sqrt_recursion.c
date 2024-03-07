@@ -15,7 +15,7 @@ int operation(int n, int root)
 if (root * root == 0)
 return (root);
 else if (root * root < n)
-return (operation(root + 1));
+return (operation(n, root + 1));
 else
 return (-1);
 }
