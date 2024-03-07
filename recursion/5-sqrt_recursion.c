@@ -11,3 +11,14 @@
  */
 
 int _sqrt_recursion(int n)
+{
+if (n < 0)
+return (-1);
+else
+return (operation(n, 1);
+}
+
+
+int operation(int n, int root)
+{
+}
