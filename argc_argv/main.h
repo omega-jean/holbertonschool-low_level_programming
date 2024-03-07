@@ -2,7 +2,7 @@
 #define main_h
 
 int _putchar(char n);
-int main (int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[]);
 
 
 
