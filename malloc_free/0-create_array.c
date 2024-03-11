@@ -23,7 +23,7 @@ return ('\0');
 }
 for (unsigned int i = 0; i < size; i++)
 {
-size[i] = c;
+array[i] = c;
 }
-return size;
+return array;
 }
