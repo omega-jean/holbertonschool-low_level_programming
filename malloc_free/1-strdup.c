@@ -21,7 +21,7 @@ if (str == 0)
 return (NULL);
 while (*str++)
 strlen++;
-s = malloc(sizeof(char) * strlen);
+s = malloc(sizeof(char) * (strlen + 1));
 if (s == 0)
 return (NULL);
 for (i = 0; i < strlen; i++)
