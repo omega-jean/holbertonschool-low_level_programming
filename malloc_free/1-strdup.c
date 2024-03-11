@@ -19,7 +19,7 @@ int strlen = 0;
 char *s;
 if (str == 0)
 return (NULL);
-while (*str++)
+while (str[strlen] != '\0')
 strlen++;
 s = malloc(sizeof(char) * (strlen + 1));
 if (s == 0)
