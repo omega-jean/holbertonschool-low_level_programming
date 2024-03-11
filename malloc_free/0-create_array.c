@@ -22,7 +22,7 @@ return (NULL);
 array = malloc(sizeof(char) * size);
 if (array == 0)
 return (NULL);
-for (i = 0; i < size - 1; i++)
+for (i = 0; i < size; i++)
 array[i] = c;
 return (array);
 }
