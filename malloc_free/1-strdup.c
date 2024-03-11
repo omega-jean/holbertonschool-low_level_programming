@@ -19,12 +19,12 @@ int strlen;
 char *s;
 if (str == 0)
 return (NULL);
-while (str++)
+while (*str++)
 strlen++
 s = malloc(sizeof(char) * strlen)
 if (s == 0)
 return (NULL);
 for (i = 0; i < len; i++)
-s[i] = str;
+s[i] = str[i];
 return (s);
 }
