@@ -19,7 +19,7 @@ if (size == 0 || size == '\0')
 return ('\0');
 char *array;
 array = malloc(sizeof(char) * size);
-for(i = 0; i < size; i++)
+for (i = 0; i < size - 1; i++)
 array[i] = c;
 return array;
 }
