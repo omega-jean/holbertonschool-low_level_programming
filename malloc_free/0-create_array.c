@@ -22,7 +22,7 @@ else
 {
 char *array;
 array = malloc(sizeof(char) * size);
-if (array != '\0')
+if (size != '\0')
 {
 return ('\0');
 }
