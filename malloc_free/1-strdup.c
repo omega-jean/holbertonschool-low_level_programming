@@ -20,11 +20,11 @@ char *s;
 if (str == 0)
 return (NULL);
 while (*str++)
-strlen++
+strlen++;
 s = malloc(sizeof(char) * strlen)
 if (s == 0)
 return (NULL);
-for (i = 0; i < len; i++)
+for (i = 0; i < strlen; i++)
 s[i] = str[i];
 return (s);
 }
