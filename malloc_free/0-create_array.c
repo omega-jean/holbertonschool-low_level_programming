@@ -22,10 +22,6 @@ else
 {
 char *array;
 array = malloc(sizeof(char) * size);
-if (size != '\0')
-{
-return ('\0');
-}
 for (i = 0; i < size - 1; i++)
 array[i] = c;
 return (array);
