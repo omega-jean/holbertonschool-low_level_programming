@@ -24,6 +24,6 @@ char *array;
 array = malloc(sizeof(char) * size);
 for (i = 0; i < size - 1; i++)
 array[i] = c;
-return array;
+return (array);
 }
 }
