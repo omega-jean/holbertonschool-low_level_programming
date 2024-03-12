@@ -28,7 +28,7 @@ free(s):
 return (NULL):
 }
 for (k = 0; k < i; k++)
-strout[k] = s1[k];
+s[k] = s1[k];
 l = j;
 for (j = 0; j <= l; k++, j++)
 s[k] = s2[j];
