@@ -5,7 +5,7 @@
 /**
  * malloc_checked - function that allocates memory using malloc.
  *
- * @b: number
+ * @b: amount of bytes.
  *
  * Return: a pointer to the allocated memory
  */
