@@ -13,7 +13,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-unsigned int i, j, k, l;
+unsigned int i, j, k, limit;
 char *s;
 if (s1 == NULL)
 s1 = "";
@@ -29,8 +29,8 @@ return (NULL);
 }
 for (k = 0; k < i; k++)
 s[k] = s1[k];
-l = j;
-for (j = 0; j <= l; k++, j++)
+limit = j;
+for (j = 0; j <= limit; k++, j++)
 s[k] = s2[j];
 return (s);
 }
