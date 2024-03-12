@@ -26,7 +26,7 @@ for (j = 0; s2[j] != '\0'; j++)
 ;
 if (n > j)
 n = j;
-lsout = i + n;
+k = i + n;
 s = malloc(k + 1);
 if (s == NULL)
 return (NULL);
