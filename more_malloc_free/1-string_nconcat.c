@@ -25,11 +25,11 @@ for (i = 0; s1[i] != '\0'; i++)
 for (j = 0; s2[j] != '\0'; j++)
 ;
 if (n > s2)
-n = s2
+n = s2;
 s = malloc(s + 1);
 if (s == NULL)
 return (NULL);
-for (l = 0; l < s; l++)
+for (l = 0; l < k; l++)
 if (l < i)
 s[l] = s1[l]
 else
