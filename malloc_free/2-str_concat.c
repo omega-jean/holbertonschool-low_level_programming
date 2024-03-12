@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _str_concat - function that concatenates two strings.
+ * str_concat - function that concatenates two strings.
  *
  * @s1: pointer 1
  * @s2: pointer 2
