@@ -24,8 +24,8 @@ for (j = 0; s2[j] != '\0'; j++)
 s = malloc(sizeof(char) * (i + j));
 if (s == NULL)
 {
-free(s):
-return (NULL):
+free(s);
+return (NULL);
 }
 for (k = 0; k < i; k++)
 s[k] = s1[k];
