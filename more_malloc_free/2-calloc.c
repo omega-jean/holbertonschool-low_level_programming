@@ -18,5 +18,5 @@ if (nmemb == 0 || size == 0)
 return (NULL);
 }
 size_t total_size = (size_t)nmemb * size;
-return calloc(nmemb, size) 
+return calloc(nmemb, size);
 }
