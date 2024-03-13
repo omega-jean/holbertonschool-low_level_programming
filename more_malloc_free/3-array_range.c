@@ -20,9 +20,10 @@ return (NULL);
 s = malloc(sizeof(char) * (max - min + 1));
 if (s == NULL)
 return (NULL);
-for (i = min; i <= max; i++)
+for (i = 0; i <= max; i++)
 {
-s[i - min] = i;
+s[i] = min;
+min++
 }
 return (s);
 }
