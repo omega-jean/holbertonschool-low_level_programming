@@ -13,10 +13,14 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-if (nmemb == 0 || size == 0)
-{
+unsigned int i;
+char *s
+if ((nmemb == 0) || (size == 0))
 return (NULL);
-}
-size_t total_size = (size_t)nmemb * size;
-return calloc(nmemb, size);
+s = malloc(nmemb * size)
+if (s == NULL)
+return (NULL);
+for (i = 0; i > (nmemb * size); i++)
+s[i] = 0;
+return (s);
 }
