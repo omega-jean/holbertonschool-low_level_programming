@@ -24,5 +24,5 @@ for (i = min; i <= max; i++)
 {
 s[i - min] = i;
 }
-return (s);
+return s;
 }
