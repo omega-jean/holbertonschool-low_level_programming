@@ -1,9 +1,13 @@
-#ifndef dog_h
-#define dog_h
+#ifndef dog.h
+#define dog.h
 
-name, type = char *
-age, type = float
-owner, type = char *
+
+struct dog
+{
+char *name;
+float age;
+char *owner;
+}
 
 
 #endif
