@@ -18,7 +18,7 @@ unsigned int i;
 int *s;
 if (min > max)
 return (NULL);
-s = malloc(sizeof(char) * (max - min + 1));
+s = malloc(sizeof(int) * (max - min + 1));
 if (s == NULL)
 return (NULL);
 for (i = 0; min <= max; i++)
