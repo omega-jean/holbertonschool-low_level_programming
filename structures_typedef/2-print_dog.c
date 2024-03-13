@@ -17,6 +17,7 @@ if (d == NULL)
 {
 return;
 }
+else
 printf("Name: %s\n");
 printf("Age: %d\n");
 printf("Owner: %s\n");
