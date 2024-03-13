@@ -23,7 +23,7 @@ return (NULL);
 for (i = 0; i <= max; i++)
 {
 s[i] = min;
-min++
+min++;
 }
 return (s);
 }
