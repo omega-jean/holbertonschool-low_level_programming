@@ -15,9 +15,9 @@ void print_dog(struct dog *d);
 {
 if (d == NULL)
 {
-return(nil);
+return;
 }
-printf("Name: %s\n");
-printf("Age: %d\n" );
-printf("Owner: %s\n");
+printf("Name: %s\n", (d->name == NULL) d->name : "(nil)");
+printf("Age: %d\n", (d->age);
+printf("Owner: %s\n", (d->owner);
 }
