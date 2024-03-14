@@ -13,12 +13,10 @@
 
 void print_dog(struct dog *d)
 {
-if (d == NULL)
+if (d)
 {
-return;
-}
-else
 printf("Name: %s\n");
-printf("Age: %d\n");
+printf("Age: %f\n");
 printf("Owner: %s\n");
+}
 }
