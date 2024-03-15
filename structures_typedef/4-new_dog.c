@@ -10,7 +10,7 @@
  * @age: its age
  * @owner: its owner
  *
- * return: a copy of the new dog
+ * Return: a copy of the new dog
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
