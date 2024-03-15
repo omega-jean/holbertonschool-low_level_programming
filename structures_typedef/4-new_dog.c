@@ -9,8 +9,6 @@
  * @name: its name
  * @age: its age
  * @owner: its owner
- *
- * return: always 0
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
