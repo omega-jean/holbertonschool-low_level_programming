@@ -23,11 +23,11 @@ while (name[i] != '\0')
 i++;
 while (owner[j] != '\0')
 j++;
-dog_t *d = (dog_t *)malloc(sizeof(dog_t));
+d = malloc(sizeof(dog_t));
 if (d == NULL)
 return (NULL);
-d->name = (char *) malloc(i + 1);
-d->owner = (char *) malloc(j + 1);
+d->name = malloc(sizeof(d->name) * i);
+d->owner = malloc(sizeof(d->owner) * j);
 if (d->name == NULL || d == NULL)
 {
 free(d->name);
