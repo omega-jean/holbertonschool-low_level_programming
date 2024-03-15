@@ -18,30 +18,31 @@ dog_t *new_dog(char *name, float age, char *owner)
 int i = 0;
 int j = 0;
 int k;
+dog_t *d;
 while (name[i] != '\0')
 i++;
 while (owner[j] != '\0')
 j++;
-dog_t *new_dog = (dog_t *)malloc(sizeof(dog_t));
-if (new_dog == NULL)
+dog_t *d = (dog_t *)malloc(sizeof(dog_t));
+if (d == NULL)
 return (NULL);
-new_dog->name = (char *) malloc(i + 1);
-new_dog->owner = (char *) malloc(j + 1);
-if (new_dog->name == NULL || new_dog->owner == NULL)
+d->name = (char *) malloc(i + 1);
+d->owner = (char *) malloc(j + 1);
+if (d->name == NULL || d == NULL)
 {
-free(new_dog->name);
-free(new_dog->age);
-free(new_dog->owner);
+free(d->name);
+free(d->age);
+free(d->owner);
 return (NULL);
 }
 for (k = 0; k <= i; k++)
 {
-new_dog->name[k] = name[k];
+d->name[k] = name[k];
 }
 for (k = 0; k <= j; k++)
 {
-new_dog->owner[k] = owner[k];
+d->owner[k] = owner[k];
 }
-new_dog->age = age;
-return new_dog;
+d->age = age;
+return (d);
 }
