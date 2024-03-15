@@ -1,6 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * new_dog - function that creates a new dog.
@@ -36,5 +37,4 @@ return (NULL);
 }
 strcpy(new_dog->owner, owner);
 return new_dog;
-}
 }
