@@ -28,7 +28,7 @@ if (d == NULL)
 return (NULL);
 d->name = malloc(sizeof(d->name) * i);
 d->owner = malloc(sizeof(d->owner) * j);
-if (d->name == NULL || d == NULL)
+if (d->name == NULL || d->owner == NULL)
 {
 free(d->name);
 free(d);
