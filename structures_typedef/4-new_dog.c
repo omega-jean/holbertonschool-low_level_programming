@@ -31,7 +31,7 @@ d->owner = (char *) malloc(j + 1);
 if (d->name == NULL || d == NULL)
 {
 free(d->name);
-free(d->age);
+free(d);
 free(d->owner);
 return (NULL);
 }
