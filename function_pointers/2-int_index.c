@@ -2,9 +2,11 @@
 #include "function_pointers.h"
 
 /**
- * print_name_as_is - prints a name as is
+ * int_index - function that searches for an integer.
  *
- * @name: name of the person
+ * @array: its array
+ * @size: its size
+ * @cmp: its cmp
  *
  * Return: Always 0
  */
