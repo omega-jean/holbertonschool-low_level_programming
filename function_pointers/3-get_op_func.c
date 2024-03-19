@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include "function_pointers.h"
-#include <stdlib.h>
+#include "3-calc.h"
 
 /**
  * get_op_func - This file should contain the function that selects the correct
