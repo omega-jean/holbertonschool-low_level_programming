@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdlib.h>
 
 /**
  * sprint_numbers - function that prints numbers, followed by a new line.
