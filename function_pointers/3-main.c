@@ -34,7 +34,7 @@ return (100);
 }
 }
 
-int (*func_ptr)(int, int) = get_op_func(argv[2]);
+func_ptr = get_op_func(argv[2]);
 
 if (func_ptr == NULL)
 {
