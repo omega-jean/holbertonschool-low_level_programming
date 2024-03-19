@@ -30,7 +30,7 @@ return (a - b);
 }
 
 /**
- * op_mult - function that mult the number
+ * op_mul - function that mult the number
  *
  * @a: first number
  * @b: second number
