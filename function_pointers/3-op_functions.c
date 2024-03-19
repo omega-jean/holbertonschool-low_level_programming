@@ -1,5 +1,4 @@
-#include "function_pointer.h"
-#include <stdio.h>
+#include "3-calc.h"
 
 /**
  * op_add - function that add the number
