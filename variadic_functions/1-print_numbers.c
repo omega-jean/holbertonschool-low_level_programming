@@ -25,6 +25,8 @@ if (i < n -1)
 if (separator != NULL)
 {
 printf ("%s", separator);
+}
+}
 va_end(args);
-printf('\n');
+printf ('\n');
 }
