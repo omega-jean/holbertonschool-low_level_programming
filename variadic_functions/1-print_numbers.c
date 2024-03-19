@@ -22,12 +22,11 @@ for (i = 0; i < n; i++)
 {
 int num = va_arg(args, int);
 printf ("%d", num);
-if (i < n -1)
-if (separator != NULL)
+if (i < n -1 && separator != NULL)
 {
 printf ("%s", separator);
 }
 }
 va_end(args);
-printf ('\n');
+printf ("\n");
 }
