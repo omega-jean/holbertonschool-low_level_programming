@@ -5,9 +5,12 @@
 /**
  * main - check the code
  *
+ * @argc: its argc
+ * @argv: its argv
+ *
  * Return: Always 0.
  */
 
-int main(void)
+int main(int argc, char *argv[])
 {
 }
