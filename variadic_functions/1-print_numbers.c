@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * sprint_numbers - function that prints numbers, followed by a new line.
+ * print_numbers - function that prints numbers, followed by a new line.
  *
  * @separator: its a separator
  * @n: its a number
