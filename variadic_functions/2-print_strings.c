@@ -20,8 +20,11 @@ va_list args;
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
-int num = va_arg(args, int);
-printf("%s", num);
+char *str = va_arg(args, char *);
+if (str != NULL)
+printf("%d", str);
+else
+printf("(nil)");
 if (i < n - 1 && separator != NULL)
 {
 printf("%s", separator);
