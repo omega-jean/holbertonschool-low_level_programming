@@ -35,7 +35,7 @@ return (100);
 }
 }
 
-if (get_op_func(op) == NULL)
+if (get_op_func(op) == NULL || op[1] != '\0')
 {
 printf("Error\n");
 return (99);
