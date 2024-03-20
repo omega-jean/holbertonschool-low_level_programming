@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * print_string - function that prints strings, followed by a new line.
+ * print_strings - function that prints strings, followed by a new line.
  *
  * @separator: its a separator
  * @n: its a number
