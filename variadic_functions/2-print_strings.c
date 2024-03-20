@@ -22,7 +22,7 @@ for (i = 0; i < n; i++)
 {
 char *str = va_arg(args, char *);
 if (str != NULL)
-printf("%d", str);
+printf("%s", str);
 else
 printf("(nil)");
 if (i < n - 1 && separator != NULL)
