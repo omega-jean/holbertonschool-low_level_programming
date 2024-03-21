@@ -27,12 +27,10 @@ num1 = atoi(argv[1]);
 op = get_op_func(argv[2]);
 num2 = atoi(argv[3]);
 
-{
 if (num2 == 0)
 {
 printf("Error\n");
 exit(100);
-}
 }
 
 if (op == NULL || argv[2][1] != '\0')
