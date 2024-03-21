@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 {
 int num1;
 int num2;
-char *op;
+int (*op)(int , int);
 if (argc != 4)
 {
 printf("Error\n");
@@ -27,7 +27,7 @@ num1 = atoi(argv[1]);
 op = get_op_func(argv[2]);
 num2 = atoi(argv[3]);
 
-if (*op == '/' || *op == '%')
+if (op == '/' || op == '%')
 {
 if (num2 == 0)
 {
@@ -44,4 +44,5 @@ exit(99);
 
 printf("%d\n", op(num1, num2));
 return (0);
+
 }
