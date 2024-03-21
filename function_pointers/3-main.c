@@ -27,7 +27,6 @@ num1 = atoi(argv[1]);
 op = get_op_func(argv[2]);
 num2 = atoi(argv[3]);
 
-if (op == '/' || op == '%')
 {
 if (num2 == 0)
 {
