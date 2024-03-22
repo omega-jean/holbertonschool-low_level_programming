@@ -21,13 +21,13 @@ char c;
 int i;
 float f;
 char *s;
-const char *ptr = format;
+const char *ptr = format; /* declares a constant pointer to a character (const char *) named ptr and initializes it with the address of the first character in the format string.*/
 va_start(args, format);
 while (*ptr)
 {
 if (*ptr == 'c')
 {
-c = va_arg(args, int);
+c = va_arg(args, int); /* Retrieves the next argument from the list of args variable arguments as an integer (int) and assigns this value to variable c. */
 printf("%c", c);
 }
 else if (*ptr == 'i')
