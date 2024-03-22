@@ -22,7 +22,7 @@ int i;
 float f;
 char *s;
 const char *ptr = format;
-va_start(arg, format);
+va_start(args, format);
 while (*ptr)
 {
 if (*ptr == 'c')
