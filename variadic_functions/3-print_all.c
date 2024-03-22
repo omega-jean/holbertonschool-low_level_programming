@@ -94,7 +94,7 @@ while (s[i].pr != '\0')
 if (format[i] == s[j].pr)
 {
 printf("%s", separator);
-s[i].print(args);
+s[i].func(args);
 separator = ", ";
 }
 j++;
