@@ -89,7 +89,7 @@ va_start(args, format);
 j = 0;
 while ((format != NULL && format[j] != '\0'))
 {
-while (s[i].letter != '\0')
+while (s[i].pr != '\0')
 {
 if (format[i] == s[j].pr)
 {
