@@ -77,7 +77,7 @@ int i = 0;
 int j;
 char *separator = "";
 
-pr_t s[] = {
+print_type s[] = {
 {'c', print_char},
 {'i', print_int},
 {'f', print_float},
@@ -94,7 +94,7 @@ while (s[i].pr != '\0')
 if (format[i] == s[j].pr)
 {
 printf("%s", separator);
-s[i].func(args);
+s[i].print(args);
 separator = ", ";
 }
 j++;
