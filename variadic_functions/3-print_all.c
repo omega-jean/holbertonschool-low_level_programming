@@ -77,10 +77,6 @@ int i = 0;
 int j;
 char *separator;
 
-typedef struct {
-char pr;
-void (*f)(va_list);
-} pr_t;
 
 pr_t s[] = {
 {'c', print_char},
