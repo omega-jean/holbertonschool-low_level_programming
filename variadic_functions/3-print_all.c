@@ -73,7 +73,7 @@ printf("%s", str);
 void print_all(const char * const format, ...)
 {
 va_list args;
-int i = 0;
+int i;
 int j;
 char *separator = "";
 
@@ -89,6 +89,7 @@ va_start(args, format);
 j = 0;
 while ((format != NULL && format[j] != '\0'))
 {
+i = 0;
 while (s[i].pr != '\0')
 {
 if (s[i].pr == format[j])
