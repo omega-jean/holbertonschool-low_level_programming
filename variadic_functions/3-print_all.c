@@ -77,7 +77,7 @@ int i = 0;
 int j;
 char *separator = "";
 
-pr_t s[] = {
+print_type s[] = {
 {'c', print_char},
 {'i', print_int},
 {'f', print_float},
@@ -89,12 +89,12 @@ va_start(args, format);
 j = 0;
 while ((format != NULL && format[j] != '\0'))
 {
-while (s[i].pr != '\0')
+while (f[i].pr != '\0')
 {
-if (format[i] == s[j].pr)
+if (format[i] == f[j].pr)
 {
 printf("%s", separator);
-s[i].print(args);
+f[i].print(args);
 separator = ", ";
 }
 j++;
