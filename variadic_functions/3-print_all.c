@@ -24,7 +24,7 @@ printf("%c", va_arg(ap, int));
 
 void print_int(va_list ap)
 {
-printf("%i", va_arg(ap, int));
+printf("%d", va_arg(ap, int));
 }
 
 
