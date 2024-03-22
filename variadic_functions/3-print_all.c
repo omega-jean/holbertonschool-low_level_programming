@@ -50,13 +50,13 @@ printf("%f", va_arg(args, double));
 
 void print_string(va_list args)
 {
-char *s = va_arg(args, char *);
-if (s == NULL)
+char *str = va_arg(args, char *);
+if (str == NULL)
 {
 printf("(nil)");
 return;
 }
-printf("%s", s);
+printf("%s", str);
 }
 
 
@@ -89,12 +89,12 @@ va_start(args, format);
 j = 0;
 while ((format != NULL && format[j] != '\0'))
 {
-while (f[i].pr != '\0')
+while (s[i].pr != '\0')
 {
-if (format[i] == f[j].pr)
+if (format[i] == s[j].pr)
 {
 printf("%s", separator);
-f[i].print(args);
+s[i].print(args);
 separator = ", ";
 }
 j++;
