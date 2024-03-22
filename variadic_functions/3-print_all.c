@@ -75,8 +75,7 @@ void print_all(const char * const format, ...)
 va_list ap;
 int i = 0;
 int j;
-char *separator;
-
+char *separator = "";
 
 pr_t s[] = {
 {'c', print_char},
@@ -87,10 +86,9 @@ pr_t s[] = {
 },
 
 va_start(ap, format);
-separator = "";
-while (format[i] && format)
+while ((format != NULL && format[j] != '\0'))
 {
-while (s[j].pr)
+while (f[i].letter != '\0')
 {
 j = 0;
 if (format[i] == s[j].pr)
