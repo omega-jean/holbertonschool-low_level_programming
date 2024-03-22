@@ -40,7 +40,7 @@ else if (*ptr == 'f')
 f = va_arg(args, float);
 printf("%f", f);
 }
-else if(*ptr == 's')
+else if (*ptr == 's')
 {
 s = va_arg(args, char *);
 if (s == NULL)
