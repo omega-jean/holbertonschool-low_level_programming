@@ -10,9 +10,9 @@
  * @ap: character.
  */
 
-void print_char(va_list ap)
+void print_char(va_list args)
 {
-printf("%c", va_arg(ap, int));
+printf("%c", va_arg(args, int));
 }
 
 
@@ -22,9 +22,9 @@ printf("%c", va_arg(ap, int));
  * @ap: character.
  */
 
-void print_int(va_list ap)
+void print_int(va_list args)
 {
-printf("%d", va_arg(ap, int));
+printf("%d", va_arg(args, int));
 }
 
 
@@ -34,9 +34,9 @@ printf("%d", va_arg(ap, int));
  * @ap: character.
  */
 
-void print_float(va_list ap)
+void print_float(va_list args)
 {
-printf("%f", va_arg(ap, double));
+printf("%f", va_arg(args, double));
 }
 
 
@@ -50,7 +50,7 @@ printf("%f", va_arg(ap, double));
 
 void print_string(va_list ap)
 {
-char *s = va_arg(ap, char *);
+char *s = va_arg(args, char *);
 if (s == NULL)
 {
 printf("(nil)");
@@ -72,7 +72,7 @@ printf("%s", s);
 
 void print_all(const char * const format, ...)
 {
-va_list ap;
+va_list args;
 int i = 0;
 int j;
 char *separator = "";
@@ -85,7 +85,7 @@ pr_t s[] = {
 {'\0', NULL}
 },
 
-va_start(ap, format);
+va_start(args, format);
 while ((format != NULL && format[j] != '\0'))
 {
 while (f[i].letter != '\0')
@@ -94,13 +94,13 @@ j = 0;
 if (format[i] == s[j].pr)
 {
 printf("%s", separator);
-s[j].f(ap);
+s[j].f(args);
 separator = ", ";
 }
 j++;
 }
 i++;
 }
-va_end(ap);
+va_end(args);
 printf("\n");
 }
