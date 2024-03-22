@@ -77,7 +77,7 @@ int i = 0;
 int j;
 char *separator = "";
 
-print_type s[] = {
+pr_t s[] = {
 {'c', print_char},
 {'i', print_int},
 {'f', print_float},
