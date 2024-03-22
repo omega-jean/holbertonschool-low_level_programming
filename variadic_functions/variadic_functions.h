@@ -1,6 +1,10 @@
 #ifndef variadic_functions_h
 #define variadic_functions_h
 
+#include <stdarg.h>
+#include <stdarg.h>
+
+
 typedef struct {
 char pr;
 void (*f)(va_list args);
