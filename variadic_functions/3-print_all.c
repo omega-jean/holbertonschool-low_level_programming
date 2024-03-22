@@ -86,15 +86,15 @@ pr_t s[] = {
 },
 
 va_start(args, format);
+j = 0;
 while ((format != NULL && format[j] != '\0'))
 {
 while (f[i].letter != '\0')
 {
-j = 0;
 if (format[i] == s[j].pr)
 {
 printf("%s", separator);
-s[j].f(args);
+f[i].print(args);
 separator = ", ";
 }
 j++;
