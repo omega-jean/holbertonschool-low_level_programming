@@ -27,7 +27,7 @@ while (*ptr)
 {
 if (*ptr == 'c')
 {
-c = va_arg(args, char);
+c = va_arg(args, int);
 printf("%c", c);
 }
 else if (*ptr == 'i')
@@ -37,7 +37,7 @@ printf("%i", i);
 }
 else if (*ptr == 'f')
 {
-f = va_arg(args, float);
+f = va_arg(args, double);
 printf("%f", f);
 }
 else if (*ptr == 's')
@@ -51,5 +51,5 @@ printf("%s", s);
 ptr++;
 }
 va_end(args)
-printf('\n');
+printf("\n");
 }
