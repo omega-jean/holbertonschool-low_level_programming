@@ -100,5 +100,5 @@ j++;
 i++;
 }
 va_end(ap);
-printf('\n');
+printf("\n");
 }
