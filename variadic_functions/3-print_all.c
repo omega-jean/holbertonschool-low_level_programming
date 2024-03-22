@@ -97,9 +97,9 @@ printf("%s", separator);
 s[i].print(args);
 separator = ", ";
 }
-j++;
-}
 i++;
+}
+j++;
 }
 va_end(args);
 printf("\n");
