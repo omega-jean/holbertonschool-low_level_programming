@@ -89,12 +89,12 @@ va_start(args, format);
 j = 0;
 while ((format != NULL && format[j] != '\0'))
 {
-while (f[i].letter != '\0')
+while (s[i].letter != '\0')
 {
 if (format[i] == s[j].pr)
 {
 printf("%s", separator);
-f[i].print(args);
+s[i].print(args);
 separator = ", ";
 }
 j++;
