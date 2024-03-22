@@ -7,7 +7,7 @@
 
 typedef struct {
 char pr;
-void (*f)(va_list args);
+void (*print)(va_list args);
 } pr_t;
 
 int sum_them_all(const unsigned int n, ...);
