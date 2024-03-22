@@ -48,7 +48,7 @@ printf("%f", va_arg(args, double));
  * return: always 0
  */
 
-void print_string(va_list ap)
+void print_string(va_list args)
 {
 char *s = va_arg(args, char *);
 if (s == NULL)
