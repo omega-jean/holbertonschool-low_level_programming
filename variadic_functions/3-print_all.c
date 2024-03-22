@@ -83,7 +83,7 @@ print_type s[] = {
 {'f', print_float},
 {'s', print_string},
 {'\0', NULL}
-},
+};
 
 va_start(args, format);
 j = 0;
