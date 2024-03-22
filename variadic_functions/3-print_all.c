@@ -36,7 +36,7 @@ printf("%d", va_arg(ap, int));
 
 void print_float(va_list ap)
 {
-printf("%f", va_arg(ap, int));
+printf("%f", va_arg(ap, double));
 }
 
 
@@ -50,12 +50,13 @@ printf("%f", va_arg(ap, int));
 
 void print_string(va_list ap)
 {
+char *s = va_arg(ap, char *);
 if (s == NULL)
 {
 printf("(nil)");
 return;
 }
-printf("%s", va-arg(ap, int));
+printf("%s", s);
 }
 
 
@@ -73,8 +74,13 @@ void print_all(const char * const format, ...)
 {
 va_list ap;
 int i = 0;
-int j = 0;
+int j;
 char *separator
+
+typedef struct {
+char pr;
+void (*f)(va_list);
+} pr_t;
 
 pr_t s[] = {
 {'c', print_char},
@@ -89,6 +95,7 @@ while (format[i] && format)
 {
 while (s[j].pr)
 {
+j = 0;
 if (format[i] == s[j].pr)
 {
 printf("%s", separator);
