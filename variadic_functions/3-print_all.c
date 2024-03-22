@@ -87,6 +87,7 @@ pr_t s[] = {
 {'i', print_int},
 {'f', print_float},
 {'s', print_string},
+{'\0', NULL}
 },
 
 va_start(ap, format);
