@@ -49,6 +49,8 @@ else
 printf("%s", s);
 }
 ptr++;
+if (*ptr)
+printf(", ");
 }
 va_end(args);
 printf("\n");
