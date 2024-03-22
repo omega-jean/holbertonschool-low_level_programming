@@ -22,7 +22,7 @@ int i;
 float f;
 char *s;
 const char *ptr = format;
-va_star arg(format);
+va_start arg(format);
 while (*ptr)
 {
 if (*ptr == 'c')
@@ -50,6 +50,6 @@ printf("%s", s);
 }
 ptr++;
 }
-va_end(args)
+va_end(args);
 printf("\n");
 }
