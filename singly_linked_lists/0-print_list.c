@@ -12,8 +12,8 @@ size_t print_list(const list_t *h)
 {
 	const list_t *current;
 	size_t count;
-	current = h;
 
+	current = h;
 	for (count = 0; current != NULL; current = current->next, count++)
 	{
 	if (current->str == NULL)
