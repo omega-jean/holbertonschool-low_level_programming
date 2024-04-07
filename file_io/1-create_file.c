@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * create_custom_file - create a file and write in it
- * @custom_filename: custom file to be created
- * @custom_text_content: custom content of the file created
+ * create_file - create a file and write in it
+ * @filename: custom file to be created
+ * @text_content: custom content of the file created
  * Return: 1 or -1;
  */
 
